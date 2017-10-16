@@ -37,8 +37,9 @@ aimof@host:~/.vim$
 First, install 2 bin files named gcdhist and gcdpath.
 
 ```shell
-go get github.com/aimof/gcd
+go get github.com/aimof/gcd/cmd/gcdhist
 go install github.com/aimof/gcd/cmd/gcdhist
+go get github.com/aimof/gcd/cmd/gcdpath
 go install github.com/aimof/gcd/cmd/gcdpath
 ```
 
